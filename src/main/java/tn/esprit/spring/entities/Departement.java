@@ -38,7 +38,7 @@ public class Departement implements Serializable {
 	@ManyToOne
 	private Entreprise entreprise;
 
-	public Departement() {
+	public Departement(String mobile, List<Employe> allEmployes, Entreprise entreprise) {
 		super();
 	}
 	
